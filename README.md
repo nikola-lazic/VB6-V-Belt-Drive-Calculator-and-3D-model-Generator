@@ -9,8 +9,8 @@
 </br>Software features:
 - V-Belt Pulley Calculation, including
     - Normal profile according to ISO 4184: 1992 / DIN 2215: 1998
-    - Narrow profile accoridng to DIN 7753
-- Possiblity to use stronger profiles after calculation 
+    - Narrow profile according to DIN 7753
+- Possibility to use stronger profiles after calculation 
 - Generating calculation report in Word (.doc)
 - Generating calculated 3D model of drive pulley and/or driven pulley in SolidWorks
 - Generating 3D model of drive pulley and/or driven pulley independently of the calculation
@@ -42,7 +42,7 @@ Main algorithm is shown on the picture below, it's written on Serbian language:
 ---
 
 ## **Tables and Diagrams**
-Calculation of the V-Belt drives requires using data from tables and diagrams. Good thing is that all of these data are implented into the software so user don't have to worry about that.
+Calculation of the V-Belt drives requires using data from tables and diagrams. Good thing is that all of these data are implemented into the software so user don't have to worry about that.
 For achieving this, I used:
 - GetData Graph Digitizer and
 - Wolfram Mathematica.
@@ -68,7 +68,7 @@ By having interpolation polynomial, we can calculate Wrapping angle factor for a
 In folder 'wolfram_mathematica_notebooks', whole notebook is available and also PDF.
 
 ### **Determination of the nominal specific Pn power of one narrow belt**
-Here is an diagram for determinating the nominal specific Pn power of one SPA (DIN 7753) narrow belt:
+Here is a diagram for determining the nominal specific Pn power of one SPA (DIN 7753) narrow belt:
 
 ![spa](/img/spa.jpg)
 
@@ -162,7 +162,7 @@ One of the feature is generating a 3D model of calculated drive/driven pulley or
 </br>Generated 3D model in SolidWorks:
 ![3d model in SolidWorks](/img/3d-sw.png)
 
-After 3D model generation, user have to desing the body of the pulley.
+After 3D model generation, user have to design the body of the pulley.
 </br>Here is some examples how Pulley should look at the end:
 ![pulley-1](/img/pulley-1.png)
 ![pulley-2](/img/pulley-2.png)
